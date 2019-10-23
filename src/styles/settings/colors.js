@@ -4,7 +4,8 @@ const GlobalColors = css`
   :root {
     --color-white: #fff;
     --color-black: #000;
-
+    --color-gray-lighter: #f4f4f4;
+    --color-purple: #3f303d;
     --color-turquoise: #98c7bc;
     --color-pink: #ff0072;
     --color-pink-hovered: #c20056;
