@@ -1,4 +1,4 @@
-<h2 align="center"> Subscription Beautybox </h2>
+# Subscription Beautybox 
 
 ### Installing
 
@@ -17,7 +17,7 @@ yarn run dev (development environment)
 yarn run build (production environment)
 ```
 
-<h2 align="center"> Developed with </h2>
+# Developed with
 
 - [Babel](https://babeljs.io/)
 - [ESlint](https://eslint.org/)
