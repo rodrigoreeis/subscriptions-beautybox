@@ -13,6 +13,10 @@ const config = {
         test: /\.pug$/,
         use: ['pug-loader'],
       },
+      {
+        test: /\.svg$/,
+        use: ['babel-loader', 'react-svg-loader'],
+      },
     ],
   },
   resolve: {
