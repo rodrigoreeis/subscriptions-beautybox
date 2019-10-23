@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HeaderBBX /> render correctly 1`] = `
+exports[`<MainHeader /> render correctly 1`] = `
 <header
   className="sc-bwzfXH kJsgmL"
 >

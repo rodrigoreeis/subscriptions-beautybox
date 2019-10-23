@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Icon } from './styles';
+import { ButtonIcon, Icon } from './styles';
 
-const IconMenu = () => {
+const IconMenu = ({ onClick }) => {
   return (
-    <Button type="button" title="Menu">
+    <ButtonIcon type="button" title="Menu" onClick={onClick}>
       <Icon />
-    </Button>
+    </ButtonIcon>
   );
 };
 

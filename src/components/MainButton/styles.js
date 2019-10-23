@@ -1,13 +1,21 @@
 import styled, { css } from 'styled-components';
+import { rem } from 'polished';
+import { flexCentered } from '../../styles/tools';
 
 const Button = styled.button`
   cursor: pointer;
-  ${props =>
-    props.primary &&
+  ${({ Primary }) =>
+    Primary &&
     css`
       background-color: var(--color-pink);
-      color: #fff;
-      display: inline-flex;
+      color: var(--color-white);
+      ${flexCentered};
+      border-radius: var(--gap-small);
+      transition: background-color 0.4s ease-in-out 0s;
+      display: flex;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: ${rem('1px')};
       &:hover {
         background-color: var(--color-pink-hovered);
       }

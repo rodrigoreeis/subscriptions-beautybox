@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 import { flexCentered } from '../../styles/tools';
 
-export const Button = styled.button`
+export const ButtonIcon = styled.button`
   height: 100%;
   padding-left: ${rem('32px')};
   padding-right: ${rem('32px')};
@@ -10,14 +10,14 @@ export const Button = styled.button`
 `;
 
 export const Icon = styled.span`
-  width: ${rem('18px')};
+  width: var(--gap-medium);
   height: var(--gap-smallest);
   background-color: var(--color-black);
   position: relative;
   &::before,
   &::after {
     content: '';
-    width: ${rem('23px')};
+    width: var(--gap-great);
     height: var(--gap-smallest);
     position: absolute;
     background-color: var(--color-black);

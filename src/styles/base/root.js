@@ -17,6 +17,7 @@ const Root = createGlobalStyle`
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
         font-family: 'Work Sans', sans-serif;
+        background-color: var(--color-gray-lighter)
     }
     img{
         max-width: 100%

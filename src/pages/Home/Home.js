@@ -1,8 +1,8 @@
 import React from 'react';
-import HeaderBBX from '../../containers/HeaderBBX/HeaderBBX';
+import MainHeader from '../../containers/MainHeader';
 
 const Home = () => {
-  return <HeaderBBX />;
+  return <MainHeader />;
 };
 
 export default Home;
