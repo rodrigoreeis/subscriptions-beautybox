@@ -1,4 +1,4 @@
-# Subscription Beautybox 
+# Subscription Beautybox
 
 ### Installing
 
@@ -17,7 +17,7 @@ yarn run dev (development environment)
 yarn run build (production environment)
 ```
 
-# Developed with
+### Developed with
 
 - [Babel](https://babeljs.io/)
 - [ESlint](https://eslint.org/)
