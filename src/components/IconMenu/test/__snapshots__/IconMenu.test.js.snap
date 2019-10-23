@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconMenu /> render correctly 1`] = `
+<button
+  className="sc-bdVaJa iGcbar"
+  title="Menu"
+  type="button"
+>
+  <span
+    className="sc-bwzfXH bARIQk"
+  />
+</button>
+`;

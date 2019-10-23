@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBBX /> render correctly 1`] = `
+<header
+  className="sc-bwzfXH kJsgmL"
+>
+  <div
+    className="sc-bdVaJa OhlFy"
+  >
+    <h1>
+      <div
+        className="sc-bxivhb eNcqbB"
+      >
+        <test-file-stub />
+      </div>
+    </h1>
+    <button
+      className="sc-ifAKCX fdOVlr"
+      title="Menu"
+      type="button"
+    >
+      <span
+        className="sc-EHOje gLzayv"
+      />
+    </button>
+  </div>
+</header>
+`;
