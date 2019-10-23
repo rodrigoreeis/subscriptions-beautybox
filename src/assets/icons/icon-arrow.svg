@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="12" viewBox="0 0 18 12">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Page_1" data-name="Page 1" d="M6,0,0,6l6,6,1.41-1.411L3.83,7H18V5H3.83L7.41,1.41Z" transform="translate(21 18) rotate(180)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="26" height="26" fill="none"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(-3 -6)" clip-path="url(#clip-path)">
+    <g id="_Color:" data-name="↳ Color:" transform="translate(-1 -1)" clip-path="url(#clip-path-2)">
+      <rect id="_Color:-2" data-name="↳ Color:" width="26" height="26" fill="#fff"/>
+    </g>
+  </g>
+</svg>
