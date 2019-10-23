@@ -1,4 +1,4 @@
-<h2 align="center">React App</h2>
+<h2 align="center"> Subscription Beautybox </h2>
 
 ### Installing
 
@@ -7,14 +7,14 @@ The first step you must follow to run the app is to install all its dependencies
 The following commands should do this for you.
 
 ```
-npm install
+yarn install
 ```
 
 ### Starting with Webpack
 
 ```
-npm run dev (development environment)
-npm run build (production environment)
+yarn run dev (development environment)
+yarn run build (production environment)
 ```
 
 <h2 align="center"> Developed with </h2>
