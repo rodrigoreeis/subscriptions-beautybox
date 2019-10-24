@@ -33,8 +33,8 @@ const MainHeader = () => {
             />
           </User>
         </Container>
+        <MainMenu className={activeMenu} onClick={handleCloseMenu} />
       </Header>
-      <MainMenu className={activeMenu} onClick={handleCloseMenu} />
     </>
   );
 };
