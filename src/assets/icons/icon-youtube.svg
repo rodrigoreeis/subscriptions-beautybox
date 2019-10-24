@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="32" height="32" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Fill_1" data-name="Fill 1" d="M25.353,32H6.647A6.616,6.616,0,0,1,0,25.43V6.57A6.616,6.616,0,0,1,6.647,0H25.353A6.616,6.616,0,0,1,32,6.57V25.43A6.616,6.616,0,0,1,25.353,32ZM6.4,3.2A3.2,3.2,0,0,0,3.2,6.4V25.6a3.2,3.2,0,0,0,3.2,3.2H25.6a3.2,3.2,0,0,0,3.2-3.2V6.4a3.2,3.2,0,0,0-3.2-3.2Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="41.6" height="41.602" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_107" data-name="Group 107" transform="translate(-266 -6630)">
+    <g id="yt" transform="translate(266 6630)" clip-path="url(#clip-path)">
+      <path id="Fill_1-2" data-name="Fill 1" d="M25.353,32H6.647A6.616,6.616,0,0,1,0,25.43V6.57A6.616,6.616,0,0,1,6.647,0H25.353A6.616,6.616,0,0,1,32,6.57V25.43A6.616,6.616,0,0,1,25.353,32ZM6.4,3.2A3.2,3.2,0,0,0,3.2,6.4V25.6a3.2,3.2,0,0,0,3.2,3.2H25.6a3.2,3.2,0,0,0,3.2-3.2V6.4a3.2,3.2,0,0,0-3.2-3.2Z" transform="translate(0 0)" fill="none"/>
+      <g clip-path="url(#clip-path-2)">
+        <g id="_Color:" data-name="↳ Color:" transform="translate(-4.801 -4.801)" clip-path="url(#clip-path-3)">
+          <rect id="_Color:-2" data-name="↳ Color:" width="41.6" height="41.6" fill="#98c7bc"/>
+        </g>
+      </g>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(287.841 6641.5) rotate(90)" fill="#98c7bc">
+      <path d="M 8.226709365844727 9.5 L 0.7732909917831421 9.5 L 4.5 1.218424439430237 L 8.226709365844727 9.5 Z" stroke="none"/>
+      <path d="M 4.5 2.436849117279053 L 1.546582221984863 9 L 7.453417778015137 9 L 4.5 2.436849117279053 M 4.5 0 L 9 10 L 0 10 L 4.5 0 Z" stroke="none" fill="#98c7bc"/>
+    </g>
+  </g>
+</svg>

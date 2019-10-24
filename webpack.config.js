@@ -14,8 +14,22 @@ const config = {
         use: ['pug-loader'],
       },
       {
+        test: /\.(png|jpg|gif)$/,
+        use: ['file-loader'],
+      },
+      {
         test: /\.svg$/,
-        use: ['babel-loader', 'react-svg-loader'],
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: 'react-svg-loader',
+            options: {
+              jsx: true,
+            },
+          },
+        ],
       },
     ],
   },

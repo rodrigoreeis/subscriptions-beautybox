@@ -1,10 +1,10 @@
+/* eslint-disable no-undef */
 import styled from 'styled-components';
 import { rem } from 'polished';
 import {
   flexColumn,
   flexCentered,
   flexSpaced,
-  AdditionSymbol,
 } from '../../styles/tools';
 import Button from '../../components/MainButton/styles';
 
@@ -76,13 +76,6 @@ export const ListName = styled.li`
   font-weight: 500;
   position: relative;
   cursor: pointer;
-  ${AdditionSymbol}
-  &::before,
-  &::after {
-    background-color: var(--color-black);
-    right: 0;
-    top: 50%;
-  }
 `;
 
 export const Sing = styled.div`

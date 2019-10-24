@@ -12,6 +12,7 @@ import {
   Sing,
 } from './styles';
 import MainButton from '../../components/MainButton';
+import IconSocial from '../../components/IconSocial/IconSocial';
 
 const MainMenu = ({ className, onClick }) => {
   return (
@@ -45,6 +46,7 @@ const MainMenu = ({ className, onClick }) => {
           content="Assine"
         />
       </Sing>
+      <IconSocial />
     </Nav>
   );
 };

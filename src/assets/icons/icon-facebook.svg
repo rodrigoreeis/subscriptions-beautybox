@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Fill_3" data-name="Fill 3" d="M25.6,32H6.4A6.407,6.407,0,0,1,0,25.6V6.4A6.407,6.407,0,0,1,6.4,0H25.6A6.407,6.407,0,0,1,32,6.4V25.6A6.407,6.407,0,0,1,25.6,32ZM6.4,3.2A3.2,3.2,0,0,0,3.2,6.4V25.6a3.2,3.2,0,0,0,3.2,3.2H25.6a3.2,3.2,0,0,0,3.2-3.2V6.4a3.2,3.2,0,0,0-3.2-3.2ZM17.227,24H13.912V16H12.3V13.3h1.613V11.072a2.967,2.967,0,0,1,.79-2.194A3.546,3.546,0,0,1,17.309,8h2.455v2.8h-1.8a.777.777,0,0,0-.72.647v1.84h2.521c-.1,1.406-.308,2.692-.31,2.7H17.227V24Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="41.6" height="41.6" fill="none"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <g id="_Color:" data-name="↳ Color:" transform="translate(-4.8 -4.8)" clip-path="url(#clip-path-2)">
+      <rect id="_Color:-2" data-name="↳ Color:" width="41.6" height="41.6" fill="#98c7bc"/>
+    </g>
+  </g>
+</svg>
