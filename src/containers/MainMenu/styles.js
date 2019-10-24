@@ -7,6 +7,7 @@ import {
   flexSpaced,
 } from '../../styles/tools';
 import Button from '../../components/MainButton/styles';
+import SocialList from '../../components/IconSocial/styles';
 
 export const Nav = styled.nav`
   position: fixed;
@@ -15,9 +16,10 @@ export const Nav = styled.nav`
   width: 100%;
   ${flexColumn};
   height: 100vh;
-  transform: translateY(-100%);
+  transform: translateY(-200%);
   transition: transform 0.4s ease-in-out 0s;
   background-color: var(--color-gray-lighter);
+  overflow-y: scroll;
   &.-active {
     transform: translateY(0);
   }
@@ -89,5 +91,9 @@ export const Sing = styled.div`
 export const Social = styled.div`
   margin: 0 ${rem('30px')};
   border-top: 1px solid var(--color-gray);
-  padding-top: var(--gap-big);
+  margin-top: var(--gap-big);
+  padding-bottom: var(--gap-great);
+  ${SocialList} {
+    margin: var(--gap-great) 0;
+  }
 `;
