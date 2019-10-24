@@ -21,7 +21,7 @@ const MainHeader = () => {
       <Header>
         <Container>
           <h1>
-            <Link to="/">
+            <Link to="/" title="Beautybox - Club de Assinaturas">
               <LogoBBX />
             </Link>
           </h1>

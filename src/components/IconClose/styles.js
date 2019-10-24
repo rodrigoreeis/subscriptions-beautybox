@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
-const Icon = styled.span`
+export const ButtonClose = styled.button`
   width: var(--gap-great);
-  height: var(--gap-smallest);
-  position: relative;
   cursor: pointer;
+  display: flex;
+  position: relative;
   padding: var(--gap-medium);
+`;
+
+export const Icon = styled.span`
   &::before,
   &::after {
     content: '';
@@ -23,5 +26,3 @@ const Icon = styled.span`
     transform: rotate(-40deg);
   }
 `;
-
-export default Icon;

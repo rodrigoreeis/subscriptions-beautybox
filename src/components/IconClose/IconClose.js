@@ -1,6 +1,10 @@
 import React from 'react';
-import Icon from './styles';
+import { ButtonClose, Icon } from './styles';
 
-const IconClose = ({ onClick }) => <Icon onClick={onClick} />;
+const IconClose = ({ onClick }) => (
+  <ButtonClose type="button" title="Fechar" onClick={onClick}>
+    <Icon />
+  </ButtonClose>
+);
 
 export default IconClose;
