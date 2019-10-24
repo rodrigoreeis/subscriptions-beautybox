@@ -12,6 +12,7 @@ const IconSocial = () => {
           href="https://www.google.com/"
           rel="noopener noreferrer"
           target="_blank"
+          title="Beautybox - Facebook"
         >
           <img src={IconFacebook} alt="Icone Facebook" />
         </a>
@@ -21,6 +22,7 @@ const IconSocial = () => {
           href="https://www.google.com/"
           rel="noopener noreferrer"
           target="_blank"
+          title="Beautybox - Instagram"
         >
           <img src={IconInstagram} alt="Icone Instagram" />
         </a>
@@ -30,6 +32,7 @@ const IconSocial = () => {
           href="https://www.google.com/"
           rel="noopener noreferrer"
           target="_blank"
+          title="Beautybox - Youtube"
         >
           <img src={IconYoutube} alt="Icone Youtube" />
         </a>
