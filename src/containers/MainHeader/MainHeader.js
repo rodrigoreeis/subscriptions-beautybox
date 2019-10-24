@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Header, User } from './styles';
+import { Link } from 'react-router-dom';
 
+import { Header, User } from './styles';
 import Container from '../../layout/Container';
 
 import IconUser from '../../assets/icons/icon-user-login.svg';
 import LogoBBX from '../../components/LogoBBX/LogoBBX';
 import IconMenu from '../../components/IconMenu';
 import MainButton from '../../components/MainButton';
-import MainMenu from '../MainMenu/MainMenu';
+import MainMenu from '../MainMenu';
 
 const MainHeader = () => {
   const [activeMenu, setActiveMenu] = useState([]);
@@ -20,7 +21,9 @@ const MainHeader = () => {
       <Header>
         <Container>
           <h1>
-            <LogoBBX />
+            <Link to="/">
+              <LogoBBX />
+            </Link>
           </h1>
           <IconMenu onClick={handleOpenMenu} />
           <User>
