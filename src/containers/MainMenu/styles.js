@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   left: 0;
   width: 100%;
   ${flexColumn};
-  min-height: 100vh;
+  height: 100vh;
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out 0s;
   background-color: var(--color-gray-lighter);
@@ -37,7 +37,7 @@ export const User = styled.div`
   ${flexSpaced};
   padding-left: ${rem('30px')};
   padding-right: ${rem('30px')};
-  padding-bottom: var(--gap-big);
+  padding-bottom: var(--gap-great);
   background-color: var(--color-white);
 `;
 
@@ -63,7 +63,7 @@ export const UserAvatar = styled.div`
 `;
 
 export const Options = styled.div`
-  padding: var(--gap-big) ${rem('30px')};
+  padding: var(--gap-big) ${rem('30px')} 0 ${rem('30px')};
 `;
 
 export const OptionsList = styled.ul`
@@ -84,4 +84,10 @@ export const Sing = styled.div`
     padding: var(--size-normal) var(--size-medium);
     width: 100%;
   }
+`;
+
+export const Social = styled.div`
+  margin: 0 ${rem('30px')};
+  border-top: 1px solid var(--color-gray);
+  padding-top: var(--gap-big);
 `;
