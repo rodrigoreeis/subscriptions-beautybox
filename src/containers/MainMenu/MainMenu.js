@@ -19,7 +19,7 @@ const MainMenu = ({ className, onClick }) => {
   return (
     <Nav className={className}>
       <Close>
-        <IconClose onClick={onClick} />
+        <IconClose onClick={onClick} title="Fechar Menu" />
       </Close>
       <User>
         <UserContent>
