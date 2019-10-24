@@ -20,6 +20,7 @@ export const Nav = styled.nav`
   transition: transform 0.4s ease-in-out 0s;
   background-color: var(--color-gray-lighter);
   overflow-y: scroll;
+  z-index: 5020;
   &.-active {
     transform: translateY(0);
   }
@@ -90,7 +91,6 @@ export const Sing = styled.div`
 
 export const Social = styled.div`
   margin: 0 ${rem('30px')};
-  border-top: 1px solid var(--color-gray);
   margin-top: var(--gap-big);
   padding-bottom: var(--gap-great);
   ${SocialList} {
