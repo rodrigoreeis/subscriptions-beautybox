@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
-// import { flexColumn } from '../../styles/tools';
 
 export const Bullets = styled.ul`
   display: flex;
 `;
 
 export const BulletsItem = styled.li`
-  margin-right: var(--gap-medium);
+  margin-right: var(--gap-great);
 `;
 
 export const BulletsImage = styled.img`

@@ -1,7 +1,12 @@
 import styled from 'styled-components';
+import ContainerWrapper from '../../layout/Container/styles';
 
-export const BulletsContainer = styled.ul`
+export const BulletsContainer = styled.section`
   display: flex;
+  margin-top: var(--gap-great);
+  & ${ContainerWrapper} {
+    align-items: center;
+  }
 `;
 
 export const p = styled.p``;
