@@ -14,6 +14,7 @@ export const Icon = styled.span`
   height: var(--gap-smallest);
   background-color: var(--color-black);
   position: relative;
+  cursor: pointer;
   &::before,
   &::after {
     content: '';

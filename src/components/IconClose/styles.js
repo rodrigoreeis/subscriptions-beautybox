@@ -4,6 +4,7 @@ const Icon = styled.span`
   width: var(--gap-great);
   height: var(--gap-smallest);
   position: relative;
+  cursor: pointer;
   padding: var(--gap-medium);
   &::before,
   &::after {
