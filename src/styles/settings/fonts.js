@@ -4,7 +4,7 @@ import BisonWoff2 from '../../fonts/bison-boldpersonaluse-webfont.woff2';
 
 const GlobalFonts = css`
   @font-face {
-    font-family: 'bisonbold';
+    font-family: 'Bison';
     src: url(${BisonWoff2}) format('woff2'),
       url(${BisonWoff}) format('woff');
     font-weight: normal;
