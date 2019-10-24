@@ -4,7 +4,7 @@
   "description": "My react-app initial for any application",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --open",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "test": "jest"
   },
@@ -41,6 +41,7 @@
     "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.2",
     "react-svg-loader": "^3.0.3",
     "react-test-renderer": "^16.11.0",
     "styled-components": "^4.4.0",
