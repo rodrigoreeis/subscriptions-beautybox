@@ -6,7 +6,9 @@ export const Bullets = styled.ul`
 `;
 
 export const BulletsItem = styled.li`
-  margin-right: var(--gap-great);
+  &:not(:last-of-type) {
+    margin-right: var(--gap-great);
+  }
 `;
 
 export const BulletsImage = styled.img`

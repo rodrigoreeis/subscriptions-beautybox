@@ -12,6 +12,7 @@ const GlobalSize = css`
     --font-small: ${rem('12px')};
     --font-normal: ${rem('16px')};
     --font-medium: ${rem('24px')};
+    --font-big: ${rem('40px')};
   }
 `;
 

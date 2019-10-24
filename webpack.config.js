@@ -14,7 +14,7 @@ const config = {
         use: ['pug-loader'],
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|woff|woff2)$/,
         use: ['file-loader'],
       },
       {
