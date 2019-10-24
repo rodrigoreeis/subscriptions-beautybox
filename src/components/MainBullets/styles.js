@@ -5,16 +5,21 @@ export const Bullets = styled.ul`
   display: flex;
 `;
 
-export const BulletsItem = styled.li`
-  &:not(:last-of-type) {
-    margin-right: var(--gap-great);
-  }
-`;
-
 export const BulletsImage = styled.img`
   border-radius: 50%;
   height: ${rem('60px')};
   width: ${rem('60px')};
+`;
+
+export const BulletsItem = styled.li`
+  &:not(:last-of-type) {
+    margin-right: var(--gap-great);
+  }
+  &:first-of-type {
+    & ${BulletsImage} {
+      border: 2px solid var(--color-pink);
+    }
+  }
 `;
 
 export const BulletsTitle = styled.h3`
