@@ -4,7 +4,9 @@ import {
   flexColumn,
   flexCentered,
   flexSpaced,
+  AdditionSymbol,
 } from '../../styles/tools';
+import Button from '../../components/MainButton/styles';
 
 export const Nav = styled.nav`
   position: fixed;
@@ -12,12 +14,15 @@ export const Nav = styled.nav`
   left: 0;
   width: 100%;
   ${flexColumn};
-  height: 100%;
+  min-height: 100vh;
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out 0s;
   background-color: var(--color-gray-lighter);
   &.-active {
     transform: translateY(0);
+  }
+  & ${Button} {
+    padding: 0 ${rem('30px')};
   }
 `;
 
@@ -69,4 +74,21 @@ export const ListName = styled.li`
   font-size: var(--font-medium);
   margin-bottom: var(--gap-big);
   font-weight: 500;
+  position: relative;
+  cursor: pointer;
+  ${AdditionSymbol}
+  &::before,
+  &::after {
+    background-color: var(--color-black);
+    right: 0;
+    top: 50%;
+  }
+`;
+
+export const Sing = styled.div`
+  padding: 0 ${rem('30px')};
+  & ${Button} {
+    padding: var(--size-normal) var(--size-medium);
+    width: 100%;
+  }
 `;

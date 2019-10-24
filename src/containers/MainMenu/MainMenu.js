@@ -9,7 +9,9 @@ import {
   Options,
   OptionsList,
   ListName,
+  Sing,
 } from './styles';
+import MainButton from '../../components/MainButton';
 
 const MainMenu = ({ className, onClick }) => {
   return (
@@ -35,6 +37,14 @@ const MainMenu = ({ className, onClick }) => {
           <ListName>Dúvidas</ListName>
         </OptionsList>
       </Options>
+      <Sing>
+        <MainButton
+          Primary
+          title="Assine"
+          type="button"
+          content="Assine"
+        />
+      </Sing>
     </Nav>
   );
 };
