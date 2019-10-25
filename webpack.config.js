@@ -10,10 +10,6 @@ const config = {
         use: ['babel-loader', 'eslint-loader'],
       },
       {
-        test: /\.pug$/,
-        use: ['pug-loader'],
-      },
-      {
         test: /\.(png|jpg|gif|woff|woff2)$/,
         use: ['file-loader'],
       },
@@ -42,7 +38,7 @@ const config = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.pug',
+      template: './public/index.html',
       filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
