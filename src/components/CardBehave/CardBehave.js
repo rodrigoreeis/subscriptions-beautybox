@@ -6,8 +6,8 @@ import {
   CardDescription,
 } from './styles';
 
-const CardBehave = ({ number, title, description }) => (
-  <CardWrapper>
+const CardBehave = ({ number, title, description, className }) => (
+  <CardWrapper className={className}>
     <CardNumber>{number}</CardNumber>
     <CardTitle>{title}</CardTitle>
     <CardDescription>{description}</CardDescription>

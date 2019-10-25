@@ -9,20 +9,14 @@ const Root = createGlobalStyle`
     body {
         box-sizing: border-box;
         min-height: 100%;
+        text-rendering: optimizeLegibility;
+        font-family: 'Work Sans', sans-serif;
+        background-color: var(--color-gray-lighter);
+    }
+    div[data-js="app"]{
         overflow-x: hidden;
         overflow-y: scroll;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-        font-family: 'Work Sans', sans-serif;
-        background-color: var(--color-gray-lighter)
     }
-    img{
-        max-width: 100%
-    }
-
     h1,
     h2,
     h3,
@@ -53,7 +47,6 @@ const Root = createGlobalStyle`
     img {
         max-width: 100%;
         height: auto;
-        -ms-interpolation-mode: bicubic;
         display: inline-block;
         vertical-align: middle;
     }

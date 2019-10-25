@@ -8,11 +8,12 @@ import Section from '../../objects/Section';
 
 import BulletsData from './BulletsData';
 import BannerData from './BannerData';
+import CardsData from './CardsData';
 
 import MainHeader from '../../containers/MainHeader';
 import MainBullets from '../../containers/MainBullets';
 import BannerFull from '../../containers/BannerFull';
-import CardBehave from '../../components/CardBehave';
+import SwipeCards from '../../containers/SwipeCards';
 
 const Home = () => {
   return (
@@ -26,11 +27,7 @@ const Home = () => {
       <Section>
         <BannerFull {...BannerData} />
       </Section>
-      <Section>
-        <Container>
-          <CardBehave />
-        </Container>
-      </Section>
+      <SwipeCards content={CardsData} />
     </>
   );
 };
