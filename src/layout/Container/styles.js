@@ -8,7 +8,7 @@ const ContainerWrapper = styled.div`
   max-width: ${rem('1136px')};
   flex-direction: column;
   @media screen and (max-width: 768px) {
-    padding: 0 var(--gap-medium);
+    padding: 0 var(--gap-great);
   }
 `;
 
