@@ -1,4 +1,5 @@
 import React from 'react';
+import shortid from 'shortid';
 import { Link } from 'react-router-dom';
 import Figure from '../../objects/Figure';
 import {
@@ -11,8 +12,8 @@ import {
 const MainBullets = ({ content }) => (
   <Bullets>
     {content &&
-      content.map(({ link, src, alt, name }, index) => (
-        <BulletsItem key={index}>
+      content.map(({ link, src, alt, name }) => (
+        <BulletsItem key={shortid.generate()}>
           <Link to={link} title={alt}>
             <Figure>
               <BulletsImage src={src} alt={alt} />

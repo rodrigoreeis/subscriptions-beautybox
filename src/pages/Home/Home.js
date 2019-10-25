@@ -6,7 +6,7 @@ import Container from '../../layout/Container';
 
 import Section from '../../objects/Section';
 
-import BulletsContent from './BulletsContent';
+import BulletsData from './BulletsData';
 import BannerData from './BannerData';
 
 import MainHeader from '../../containers/MainHeader';
@@ -20,7 +20,7 @@ const Home = () => {
       <MainHeader />
       <BulletsContainer>
         <Container>
-          <MainBullets content={BulletsContent} />
+          <MainBullets content={BulletsData} />
         </Container>
       </BulletsContainer>
       <Section>

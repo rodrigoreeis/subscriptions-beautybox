@@ -8,9 +8,9 @@ import {
 import Figure from '../../objects/Figure';
 import MainButton from '../../components/MainButton';
 
-const BannerFull = ({ title, src, alt, name, description }) => {
+const BannerFull = ({ link, title, src, alt, name, description }) => {
   return (
-    <StyledLink to="/" title={title}>
+    <StyledLink to={link} title={title}>
       <Figure>
         <img src={src} alt={alt} />
       </Figure>
