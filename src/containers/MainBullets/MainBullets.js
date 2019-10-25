@@ -11,8 +11,8 @@ import {
 const MainBullets = ({ content }) => (
   <Bullets>
     {content &&
-      content.map(({ link, src, alt, name }) => (
-        <BulletsItem>
+      content.map(({ link, src, alt, name }, index) => (
+        <BulletsItem key={index}>
           <Link to={link} title={alt}>
             <Figure>
               <BulletsImage src={src} alt={alt} />

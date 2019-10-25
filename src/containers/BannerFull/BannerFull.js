@@ -6,11 +6,11 @@ import {
   BannerDescription,
 } from './styles';
 import Figure from '../../objects/Figure';
-import MainButton from '../MainButton';
+import MainButton from '../../components/MainButton';
 
-const BannerFull = ({ link, title, src, alt, name, description }) => {
+const BannerFull = ({ title, src, alt, name, description }) => {
   return (
-    <StyledLink to={link} title={title}>
+    <StyledLink to="/" title={title}>
       <Figure>
         <img src={src} alt={alt} />
       </Figure>

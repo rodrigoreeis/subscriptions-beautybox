@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { flexColumn } from '../../styles/tools';
-import Button from '../MainButton/styles';
+import Button from '../../components/MainButton/styles';
 
 export const StyledLink = styled(Link)`
   display: flex;

@@ -6,41 +6,33 @@ import Container from '../../layout/Container';
 
 import Section from '../../objects/Section';
 
-import MainHeader from '../../containers/MainHeader';
-import SectionTitle from '../../containers/SectionTitle';
+import BulletsContent from './BulletsContent';
+import BannerData from './BannerData';
 
-import MainBullets from '../../components/MainBullets/MainBullets';
-import BannerFull from '../../components/BannerFull/BannerFull';
+import MainHeader from '../../containers/MainHeader';
+import MainBullets from '../../containers/MainBullets';
+import BannerFull from '../../containers/BannerFull';
 import CardBehave from '../../components/CardBehave';
 
-import BulletsContent from './BulletsContent';
-
-const Home = () => (
-  <>
-    <MainHeader />
-    <BulletsContainer>
-      <Container>
-        <MainBullets content={BulletsContent} />
-      </Container>
-    </BulletsContainer>
-    <Section>
-      <BannerFull
-        name={'Lorem Ipsum'}
-        description={
-          'Mollit anim consectetur elit esse nulla deserunt magna Lorem adipisicing sit ipsum tempor nisi dolor.'
-        }
-        src={
-          'https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg'
-        }
-      />
-    </Section>
-    <SectionTitle content="Como Funciona?" />
-    <Section>
-      <Container>
-        <CardBehave />
-      </Container>
-    </Section>
-  </>
-);
+const Home = () => {
+  return (
+    <>
+      <MainHeader />
+      <BulletsContainer>
+        <Container>
+          <MainBullets content={BulletsContent} />
+        </Container>
+      </BulletsContainer>
+      <Section>
+        <BannerFull {...BannerData} />
+      </Section>
+      <Section>
+        <Container>
+          <CardBehave />
+        </Container>
+      </Section>
+    </>
+  );
+};
 
 export default Home;
