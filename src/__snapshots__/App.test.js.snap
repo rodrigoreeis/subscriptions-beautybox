@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> render correctly 1`] = `
+Array [
+  <header
+    className="sc-EHOje cQTXSV"
+  >
+    <div
+      className="sc-bdVaJa cusvFQ"
+    >
+      <h1>
+        <a
+          href="/"
+          onClick={[Function]}
+          title="Beautybox - Club de Assinaturas"
+        >
+          <div
+            className="sc-gzVnrw chkxGS"
+          >
+            <test-file-stub />
+          </div>
+        </a>
+      </h1>
+      <button
+        className="sc-htoDjs fosvVu"
+        onClick={[Function]}
+        title="Menu"
+        type="button"
+      >
+        <span
+          className="sc-dnqmqq uDAvL"
+        />
+      </button>
+      <div
+        className="sc-bZQynM gvUHBI"
+      >
+        <test-file-stub />
+        <button
+          className="sc-ifAKCX gboAJt"
+          title="Assine"
+          type="button"
+        >
+          Assine
+        </button>
+      </div>
+    </div>
+    <nav
+      className="sc-VigVT bcqOaN"
+    >
+      <div
+        className="sc-jTzLTM fIhVVq"
+      >
+        <button
+          className="sc-iwsKbI fqPImh"
+          onClick={[Function]}
+          title="Fechar Menu"
+          type="button"
+        >
+          <span
+            className="sc-gZMcBi evUEYP"
+          />
+        </button>
+      </div>
+      <div
+        className="sc-fjdhpX efuWvJ"
+      >
+        <div
+          className="sc-jzJRlG iYXRox"
+        >
+          <h4
+            className="user-welcome"
+          >
+            Olá, Visitante
+          </h4>
+          <span
+            className="user-login"
+          >
+            Faça seu login ou cadastre-se
+          </span>
+        </div>
+        <div
+          className="sc-cSHVUG eLPWey"
+        />
+      </div>
+      <div
+        className="sc-kAzzGY jmMRDE"
+      >
+        <ul
+          className="sc-chPdSV eafzQZ"
+        >
+          <li
+            className="sc-kgoBCf dJwMmF"
+          >
+            Como funciona?
+          </li>
+          <li
+            className="sc-kgoBCf dJwMmF"
+          >
+            Vantagens
+          </li>
+          <li
+            className="sc-kgoBCf dJwMmF"
+          >
+            Edições
+          </li>
+          <li
+            className="sc-kgoBCf dJwMmF"
+          >
+            Depoimentos
+          </li>
+          <li
+            className="sc-kgoBCf dJwMmF"
+          >
+            Dúvidas
+          </li>
+        </ul>
+      </div>
+      <div
+        className="sc-kGXeez kzfwhT"
+      >
+        <button
+          className="sc-ifAKCX gboAJt"
+          title="Assine"
+          type="button"
+        >
+          Assine
+        </button>
+      </div>
+      <div
+        className="sc-kpOJdX kynAaR"
+      >
+        <ul
+          className="sc-gqjmRU bxXYEY"
+        >
+          <li>
+            <a
+              href="https://www.google.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Beautybox - Facebook"
+            >
+              <img
+                alt="Icone Facebook"
+                src="test-file-stub"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.google.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Beautybox - Instagram"
+            >
+              <img
+                alt="Icone Instagram"
+                src="test-file-stub"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.google.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Beautybox - Youtube"
+            >
+              <img
+                alt="Icone Youtube"
+                src="test-file-stub"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>,
+  <section
+    className="sc-bwzfXH bJWjBC"
+  >
+    <div
+      className="sc-bdVaJa cusvFQ"
+    >
+      <ul
+        className="sc-ckVGcZ kWiLnl"
+      >
+        <li
+          className="sc-eNQAEJ bIauuT"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            title="foto teste"
+          >
+            <figure
+              className="sc-dxgOiQ hTjMfW"
+            >
+              <img
+                alt="foto teste"
+                className="sc-jKJlTe fcXPiS"
+                src="https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg"
+              />
+            </figure>
+            <h3
+              className="sc-hMqMXs dPqtbp"
+            >
+              pera
+            </h3>
+          </a>
+        </li>
+        <li
+          className="sc-eNQAEJ bIauuT"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            title="foto teste"
+          >
+            <figure
+              className="sc-dxgOiQ hTjMfW"
+            >
+              <img
+                alt="foto teste"
+                className="sc-jKJlTe fcXPiS"
+                src="https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg"
+              />
+            </figure>
+            <h3
+              className="sc-hMqMXs dPqtbp"
+            >
+              pera
+            </h3>
+          </a>
+        </li>
+        <li
+          className="sc-eNQAEJ bIauuT"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            title="foto teste"
+          >
+            <figure
+              className="sc-dxgOiQ hTjMfW"
+            >
+              <img
+                alt="foto teste"
+                className="sc-jKJlTe fcXPiS"
+                src="https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg"
+              />
+            </figure>
+            <h3
+              className="sc-hMqMXs dPqtbp"
+            >
+              pera
+            </h3>
+          </a>
+        </li>
+        <li
+          className="sc-eNQAEJ bIauuT"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            title="foto teste"
+          >
+            <figure
+              className="sc-dxgOiQ hTjMfW"
+            >
+              <img
+                alt="foto teste"
+                className="sc-jKJlTe fcXPiS"
+                src="https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg"
+              />
+            </figure>
+            <h3
+              className="sc-hMqMXs dPqtbp"
+            >
+              pera
+            </h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>,
+  <section
+    className="sc-bxivhb eCDjSF"
+  >
+    <a
+      className="sc-kEYyzF koCczG"
+      href="/"
+      onClick={[Function]}
+      title="Lorem ipsum"
+    >
+      <figure
+        className="sc-dxgOiQ hTjMfW"
+      >
+        <img
+          alt="image bob esponja"
+          src="https://ogimg.infoglobo.com.br/in/2700613-827-06a/FT1086A/652/xBob-Esponja-Reproducao.jpg.pagespeed.ic.Yu09BGtxU5.jpg"
+        />
+      </figure>
+      <article
+        className="sc-kkGfuU kgalfG"
+      >
+        <h2
+          className="sc-iAyFgw cAFAOu"
+        >
+          Lorem ipsum
+        </h2>
+        <p
+          className="sc-hSdWYo smatF"
+        >
+          Minim adipisicing id adipisicing Lorem elit laborum esse officia voluptate dolore quis pariatur reprehenderit.
+        </p>
+        <button
+          className="sc-ifAKCX gboAJt"
+          title="Lorem ipsum"
+        >
+          CTA
+        </button>
+      </article>
+    </a>
+  </section>,
+  <section
+    className="sc-cMljjf bsyndg"
+  >
+    <div
+      className="sc-brqgnP evYmLC"
+    >
+      <span
+        className="sc-eHgmQL kGQvkL"
+      >
+        1
+      </span>
+      <h3
+        className="sc-cvbbAY eayytF"
+      >
+        Lorem Ipsum
+      </h3>
+      <p
+        className="sc-jWBwVP idXjKl"
+      >
+        Ad occaecat mollit sit duis irure laborum sunt est exercitation minim magna quis.
+      </p>
+    </div>
+    <div
+      className="sc-brqgnP evYmLC -changed"
+    >
+      <span
+        className="sc-eHgmQL kGQvkL"
+      >
+        1
+      </span>
+      <h3
+        className="sc-cvbbAY eayytF"
+      >
+        Lorem Ipsum
+      </h3>
+      <p
+        className="sc-jWBwVP idXjKl"
+      >
+        Ad occaecat mollit sit duis irure laborum sunt est exercitation minim magna quis.
+      </p>
+    </div>
+    <div
+      className="sc-brqgnP evYmLC"
+    >
+      <span
+        className="sc-eHgmQL kGQvkL"
+      >
+        1
+      </span>
+      <h3
+        className="sc-cvbbAY eayytF"
+      >
+        Lorem Ipsum
+      </h3>
+      <p
+        className="sc-jWBwVP idXjKl"
+      >
+        Ad occaecat mollit sit duis irure laborum sunt est exercitation minim magna quis.
+      </p>
+    </div>
+  </section>,
+]
+`;
