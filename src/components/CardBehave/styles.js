@@ -23,6 +23,7 @@ export const CardTitle = styled.h3`
   font-size: var(--font-big);
   font-family: 'Bison', sans-serif;
   font-weight: 500;
+  color: var(--color-purple);
 `;
 
 export const CardDescription = styled.p`
