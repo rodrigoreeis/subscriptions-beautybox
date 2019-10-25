@@ -1,12 +1,14 @@
 import styled from 'styled-components';
-// import { flexSpaced } from '../../styles/tools';
 import { CardWrapper } from '../../components/CardBehave/styles';
 
+// eslint-disable-next-line import/prefer-default-export
 export const SwipeWrapper = styled.section`
   display: flex;
   overflow-x: scroll;
   width: 100%;
   justify-content: flex-start;
+  margin-bottom: var(--size-great);
+  margin-top: var(--size-great);
   margin-left: var(--gap-great);
   & ${CardWrapper} {
     min-width: 50%;
@@ -15,5 +17,3 @@ export const SwipeWrapper = styled.section`
     }
   }
 `;
-
-export const p = [];
