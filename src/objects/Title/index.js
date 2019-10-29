@@ -13,10 +13,10 @@ const TitleSection = styled.h2`
   }
 `;
 
-const Title = ({ children }) => {
+const Title = ({ content }) => {
   return (
     <Section>
-      <TitleSection>{children}</TitleSection>
+      <TitleSection>{content}</TitleSection>
     </Section>
   );
 };

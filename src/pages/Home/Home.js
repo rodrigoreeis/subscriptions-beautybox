@@ -23,9 +23,9 @@ const Home = () => {
       </BulletsContainer>
       <BannerFull {...BannerData} />
       <SwipeCards content={CardsData} />
-      <Title>Vantagens</Title>
+      <Title content="Vantagens" />
       <BenefitsBullets content={BenefitsData} />
-      <Title>Ediçoes</Title>
+      <Title content="Edições" />
     </>
   );
 };
