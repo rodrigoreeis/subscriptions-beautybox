@@ -9,10 +9,13 @@ import BulletsData from './BulletsData';
 import BannerData from './BannerData';
 import CardsData from './CardsData';
 
+import Title from '../../objects/Title';
+
 import MainHeader from '../../containers/MainHeader';
 import MainBullets from '../../containers/MainBullets';
 import BannerFull from '../../containers/BannerFull';
 import SwipeCards from '../../containers/SwipeCards';
+import BenefitsBullets from '../../containers/BenefitsBullets';
 
 const Home = () => {
   return (
@@ -27,6 +30,8 @@ const Home = () => {
         <BannerFull {...BannerData} />
       </Section>
       <SwipeCards content={CardsData} />
+      <Title>Vantagens</Title>
+      <BenefitsBullets />
     </>
   );
 };
