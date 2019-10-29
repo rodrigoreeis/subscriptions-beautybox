@@ -1,10 +1,6 @@
 import React from 'react';
 import { BulletsContainer } from './styles';
 
-import Container from '../../layout/Container';
-
-import Section from '../../objects/Section';
-
 import BulletsData from './BulletsData';
 import BannerData from './BannerData';
 import CardsData from './CardsData';
@@ -23,16 +19,13 @@ const Home = () => {
     <>
       <MainHeader />
       <BulletsContainer>
-        <Container>
-          <MainBullets content={BulletsData} />
-        </Container>
+        <MainBullets content={BulletsData} />
       </BulletsContainer>
-      <Section>
-        <BannerFull {...BannerData} />
-      </Section>
+      <BannerFull {...BannerData} />
       <SwipeCards content={CardsData} />
       <Title>Vantagens</Title>
       <BenefitsBullets content={BenefitsData} />
+      <Title>Ediçoes</Title>
     </>
   );
 };

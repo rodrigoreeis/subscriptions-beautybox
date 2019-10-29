@@ -8,21 +8,24 @@ import {
   BulletsTitle,
   BulletsImage,
 } from './styles';
+import Container from '../../layout/Container';
 
 const MainBullets = ({ content }) => (
-  <Bullets>
-    {content &&
-      content.map(({ link, src, alt, name }) => (
-        <BulletsItem key={shortid.generate()}>
-          <Link to={link} title={alt}>
-            <Figure>
-              <BulletsImage src={src} alt={alt} />
-            </Figure>
-            <BulletsTitle>{name}</BulletsTitle>
-          </Link>
-        </BulletsItem>
-      ))}
-  </Bullets>
+  <Container>
+    <Bullets>
+      {content &&
+        content.map(({ link, src, alt, name }) => (
+          <BulletsItem key={shortid.generate()}>
+            <Link to={link} title={alt}>
+              <Figure>
+                <BulletsImage src={src} alt={alt} />
+              </Figure>
+              <BulletsTitle>{name}</BulletsTitle>
+            </Link>
+          </BulletsItem>
+        ))}
+    </Bullets>
+  </Container>
 );
 
 export default MainBullets;
