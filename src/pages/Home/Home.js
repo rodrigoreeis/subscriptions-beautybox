@@ -8,6 +8,7 @@ import Section from '../../objects/Section';
 import BulletsData from './BulletsData';
 import BannerData from './BannerData';
 import CardsData from './CardsData';
+import BenefitsData from './BenefitsData';
 
 import Title from '../../objects/Title';
 
@@ -31,7 +32,7 @@ const Home = () => {
       </Section>
       <SwipeCards content={CardsData} />
       <Title>Vantagens</Title>
-      <BenefitsBullets />
+      <BenefitsBullets content={BenefitsData} />
     </>
   );
 };
