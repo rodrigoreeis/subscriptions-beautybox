@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import shortid from 'shortid';
 import {
   SwapContainer,
   Wrapper,
@@ -15,7 +16,7 @@ const BannersEditions = ({ content }) => (
     <SwapContainer>
       {content &&
         content.map(({ color, title, src, text, link }) => (
-          <Wrapper>
+          <Wrapper key={shortid.generate()}>
             <Title color={color}>{title}</Title>
             <Content image={src}>
               <Text>{text}</Text>
