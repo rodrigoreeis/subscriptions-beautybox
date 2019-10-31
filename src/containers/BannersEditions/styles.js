@@ -8,7 +8,7 @@ export const SwapContainer = styled.div`
   overflow-x: scroll;
   width: 100%;
   justify-content: flex-start;
-  margin-bottom: var(--size-great);
+  padding-bottom: var(--size-great);
   margin-left: var(--gap-great);
   ${MainButton} {
     border-radius: 0;
