@@ -15,7 +15,6 @@ const MainHeader = () => {
 
   const handleOpenMenu = () => setActiveMenu('-active');
   const handleCloseMenu = () => setActiveMenu('');
-
   return (
     <>
       <Header>

@@ -12,6 +12,8 @@ const GlobalColors = css`
     --color-turquoise: #98c7bc;
     --color-pink: #ff0072;
     --color-pink-hovered: #c20056;
+    --color-brown: #8a6962;
+    --color-yellow-lighter: #e5c59b;
   }
 `;
 
