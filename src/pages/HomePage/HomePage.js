@@ -16,6 +16,7 @@ import SwipeCards from '../../containers/SwipeCards';
 import BenefitsBullets from '../../containers/BenefitsBullets';
 import BannersEditions from '../../containers/BannersEditions/BannersEditions';
 import BrandsBeauty from '../../containers/BrandsBeauty';
+import CommonQuestions from '../../containers/CommonQuestions';
 
 const Home = () => {
   return (
@@ -32,6 +33,8 @@ const Home = () => {
       <BannersEditions content={EditionsData} />
       <Title content="Marcas" />
       <BrandsBeauty content={BrandsData} />
+      <Title content="Dúvidas Frequentes" />
+      <CommonQuestions />
     </>
   );
 };

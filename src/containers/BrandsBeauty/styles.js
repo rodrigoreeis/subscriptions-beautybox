@@ -8,6 +8,7 @@ export const SwapContainer = styled.ul`
   justify-content: flex-start;
   align-items: center;
   display: -webkit-box;
+  padding-bottom: var(--size-great);
 `;
 
 export const Item = styled.li`
