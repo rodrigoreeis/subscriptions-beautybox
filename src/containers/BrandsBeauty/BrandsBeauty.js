@@ -1,19 +1,22 @@
 import React from 'react';
-import { Swap, StyledLink } from './styles';
-import Container from '../../layout/Container';
+import { Link } from 'react-router-dom';
+import { SwapContainer, Image, Item } from './styles';
+import Section from '../../objects/Section';
 
 const BrandsBeauty = ({ content }) => {
   return (
-    <Container>
-      <Swap>
+    <Section>
+      <SwapContainer>
         {content &&
           content.map(({ link, src, alt }) => (
-            <StyledLink to={link}>
-              <img src={src} alt={alt} />
-            </StyledLink>
+            <Item>
+              <Link to={link}>
+                <Image src={src} alt={alt} />
+              </Link>
+            </Item>
           ))}
-      </Swap>
-    </Container>
+      </SwapContainer>
+    </Section>
   );
 };
 

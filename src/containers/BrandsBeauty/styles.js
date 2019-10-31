@@ -1,18 +1,24 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { rem } from 'polished';
 
-export const Swap = styled.section`
+export const SwapContainer = styled.ul`
   display: flex;
   overflow-x: scroll;
-  overflow-y: hidden;
-  width: 100%;
-  margin-top: var(--size-great);
   margin-left: var(--gap-great);
+  justify-content: flex-start;
+  align-items: center;
+  display: -webkit-box;
 `;
 
-export const StyledLink = styled(Link)`
+export const Item = styled.li`
   width: ${rem('80px')};
   height: ${rem('80px')};
+  border-radius: 50%;
+  &:not(:last-of-type) {
+    margin-right: var(--gap-great);
+  }
+`;
+
+export const Image = styled.img`
   border-radius: 50%;
 `;
