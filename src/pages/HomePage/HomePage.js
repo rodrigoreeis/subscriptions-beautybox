@@ -9,7 +9,7 @@ import EditionsData from './EditionsData';
 import BrandsData from './BrandsData';
 import Title from '../../objects/Title';
 
-import MainHeader from '../../containers/MainHeader';
+import Header from '../../containers/Header';
 import MainBullets from '../../containers/MainBullets';
 import BannerFull from '../../containers/BannerFull';
 import SwipeCards from '../../containers/SwipeCards';
@@ -21,7 +21,7 @@ import CommonQuestions from '../../containers/CommonQuestions';
 const Home = () => {
   return (
     <>
-      <MainHeader />
+      <Header />
       <BulletsContainer>
         <MainBullets content={BulletsData} />
       </BulletsContainer>
