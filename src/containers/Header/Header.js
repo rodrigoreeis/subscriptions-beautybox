@@ -8,7 +8,7 @@ import IconUser from '../../assets/icons/icon-user-login.svg';
 import LogoBBX from '../../components/LogoBBX/LogoBBX';
 import IconMenu from '../../components/IconMenu';
 import MainButton from '../../components/MainButton';
-import MainMenu from '../MainMenu';
+import Menu from '../Menu';
 
 const MainHeader = () => {
   const [activeMenu, setActiveMenu] = useState([]);
@@ -35,7 +35,7 @@ const MainHeader = () => {
             />
           </User>
         </Container>
-        <MainMenu className={activeMenu} onClick={handleCloseMenu} />
+        <Menu className={activeMenu} onClick={handleCloseMenu} />
       </Header>
     </>
   );
