@@ -5,7 +5,7 @@ import { Header, User } from './styles';
 import Container from '../../layout/Container';
 
 import IconUser from '../../assets/icons/icon-user-login.svg';
-import LogoBBX from '../../components/LogoBBX/LogoBBX';
+import LogoBeauty from '../../components/LogoBeauty';
 import IconMenu from '../../components/IconMenu';
 import MainButton from '../../components/MainButton';
 import Menu from '../Menu';
@@ -21,7 +21,7 @@ const MainHeader = () => {
         <Container>
           <h1>
             <Link to="/" title="Beautybox - Club de Assinaturas">
-              <LogoBBX />
+              <LogoBeauty />
             </Link>
           </h1>
           <IconMenu onClick={handleOpenMenu} />

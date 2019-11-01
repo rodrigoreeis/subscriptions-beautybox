@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
-import { Title, Button } from '../../components/Accordion/styles';
+import { Title, Button } from '../../components/MainAccordion/styles';
 
-const Section = styled.section`
+export const Questions = styled.section`
   display: flex;
+  margin-bottom: var(--gap-great);
   & ${Button} {
     padding: var(--gap-great) 0;
   }
@@ -16,4 +17,4 @@ const Section = styled.section`
   }
 `;
 
-export default Section;
+export const Text = styled.p``;

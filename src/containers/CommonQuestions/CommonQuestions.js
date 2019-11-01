@@ -1,38 +1,47 @@
 import React from 'react';
-import Section from './styles';
+import { Questions, Text } from './styles';
 import Container from '../../layout/Container';
-import Accordion from '../../components/Accordion/Accordion';
+import MainAccordion from '../../components/MainAccordion';
 
 const CommonQuestions = () => (
-  <Section>
+  <Questions>
     <Container>
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex. Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex.Ipsum labore mollit deserunt proident ex."
-      />
+      <MainAccordion title="Lorem Ipsum">
+        <Text>
+          Adipisicing excepteur mollit cillum enim occaecat dolore
+          sint aliquip officia.
+        </Text>
+      </MainAccordion>
 
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex."
-      />
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex."
-      />
+      <MainAccordion title="Lorem Ipsum">
+        <Text> Amet velit id occaecat et nulla tempor.</Text>
+      </MainAccordion>
+      <MainAccordion title="Lorem Ipsum">
+        <Text>
+          Cupidatat eiusmod quis officia magna aliqua ea ea incididunt
+          exercitation.
+        </Text>
+      </MainAccordion>
 
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex."
-      />
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex."
-      />
-      <Accordion
-        title="Lorem Ipsum"
-        content="Ipsum labore mollit deserunt proident ex."
-      />
+      <MainAccordion title="Lorem Ipsum">
+        <Text>
+          Non adipisicing ea exercitation ex officia amet sit minim
+          ullamco ut nostrud elit eu exercitation.
+        </Text>
+      </MainAccordion>
+      <MainAccordion title="Lorem Ipsum">
+        <Text>
+          Deserunt aliquip sunt minim reprehenderit cupidatat officia
+          amet exercitation.
+        </Text>
+      </MainAccordion>
+      <MainAccordion title="Lorem Ipsum">
+        <Text>
+          Mollit est nostrud culpa labore amet quis nisi elit elit id
+          sit.
+        </Text>
+      </MainAccordion>
     </Container>
-  </Section>
+  </Questions>
 );
 export default CommonQuestions;

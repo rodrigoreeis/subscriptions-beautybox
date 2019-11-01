@@ -4,10 +4,12 @@ const GlobalColors = css`
   :root {
     --color-white: #fff;
     --color-black: #000;
-    --color-gray-lighter: #f4f4f4;
     --color-gray: #b9bab9;
+    --color-gray-lighter: #f4f4f4;
+    --color-gray-lighter-1: #c1c1c1;
     --color-gray-darkenst: #737573;
     --color-gray-darken: #25282c;
+
     --color-purple: #3f303d;
     --color-turquoise: #98c7bc;
     --color-pink: #ff0072;

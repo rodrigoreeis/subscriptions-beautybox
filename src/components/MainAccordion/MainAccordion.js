@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { AccordionContainer, Button, Title, Content } from './styles';
 
-const Accordion = ({ title, content }) => {
+const MainAccordion = ({ title, children }) => {
   const [activeHeight, setActiveHeight] = useState('0px');
   const [activeAccordion, setActiveAccordion] = useState('');
   const [activeRotate, seActiveRotate] = useState('');
@@ -30,10 +30,10 @@ const Accordion = ({ title, content }) => {
         ref={contentRef}
         style={{ maxHeight: `${activeHeight}` }}
       >
-        <p>{content}</p>
+        {children}
       </Content>
     </AccordionContainer>
   );
 };
 
-export default Accordion;
+export default MainAccordion;

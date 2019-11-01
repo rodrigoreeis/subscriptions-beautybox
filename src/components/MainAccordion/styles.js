@@ -29,4 +29,6 @@ export const Title = styled.h4`
 export const Content = styled.div`
   overflow: hidden;
   transition: max-height 0.3s linear;
+  display: flex;
+  flex-direction: column;
 `;
