@@ -17,6 +17,7 @@ import BenefitsBullets from '../../containers/BenefitsBullets';
 import BannersEditions from '../../containers/BannersEditions/BannersEditions';
 import BrandsBeauty from '../../containers/BrandsBeauty';
 import CommonQuestions from '../../containers/CommonQuestions';
+import MainFooter from '../../containers/MainFooter';
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
       <BrandsBeauty content={BrandsData} />
       <Title content="Dúvidas Frequentes" />
       <CommonQuestions />
+      <MainFooter />
     </>
   );
 };
