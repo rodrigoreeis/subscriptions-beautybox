@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Footer,
   WrapperLogo,
@@ -15,7 +16,9 @@ import IconSocial from '../../components/IconSocial/IconSocial';
 const MainFooter = () => (
   <Footer>
     <WrapperLogo>
-      <LogoBeauty />
+      <Link to="/">
+        <LogoBeauty />
+      </Link>
     </WrapperLogo>
     <Content>
       <MainAccordion title="Lorem Ipsum">
