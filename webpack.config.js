@@ -43,6 +43,13 @@ const config = {
     }),
     new CleanWebpackPlugin(),
   ],
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './dist',
+    watchOptions: {
+      ignored: /node_modules/,
+    },
+  },
 };
 
 module.exports = config;
