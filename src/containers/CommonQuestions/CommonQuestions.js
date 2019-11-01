@@ -1,7 +1,7 @@
 import React from 'react';
+import Section from './styles';
 import Container from '../../layout/Container';
 import Accordion from '../../components/Accordion/Accordion';
-import Section from '../../objects/Section';
 
 const CommonQuestions = () => (
   <Section>
