@@ -17,24 +17,29 @@ import BenefitsBullets from '../../containers/BenefitsBullets';
 import BannersEditions from '../../containers/BannersEditions/BannersEditions';
 import BrandsBeauty from '../../containers/BrandsBeauty';
 import CommonQuestions from '../../containers/CommonQuestions';
+import MainFooter from '../../containers/MainFooter';
+import Main from '../../objects/Main';
 
 const Home = () => {
   return (
     <>
       <MainHeader />
-      <BulletsContainer>
-        <MainBullets content={BulletsData} />
-      </BulletsContainer>
-      <BannerFull {...BannerData} />
-      <SwipeCards content={CardsData} />
-      <Title content="Vantagens" />
-      <BenefitsBullets content={BenefitsData} />
-      <Title content="Edições" />
-      <BannersEditions content={EditionsData} />
-      <Title content="Marcas" />
-      <BrandsBeauty content={BrandsData} />
-      <Title content="Dúvidas Frequentes" />
-      <CommonQuestions />
+      <Main>
+        <BulletsContainer>
+          <MainBullets content={BulletsData} />
+        </BulletsContainer>
+        <BannerFull {...BannerData} />
+        <SwipeCards content={CardsData} />
+        <Title content="Vantagens" />
+        <BenefitsBullets content={BenefitsData} />
+        <Title content="Edições" />
+        <BannersEditions content={EditionsData} />
+        <Title content="Marcas" />
+        <BrandsBeauty content={BrandsData} />
+        <Title content="Dúvidas Frequentes" />
+        <CommonQuestions />
+      </Main>
+      <MainFooter />
     </>
   );
 };
