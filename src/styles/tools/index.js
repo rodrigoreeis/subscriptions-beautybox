@@ -41,3 +41,27 @@ export const AdditionSymbol = () => css`
     transform: rotate(90deg);
   }
 `;
+
+export const Arrow = () => css`
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: ${rem('70px')};
+  }
+  &::before {
+    width: var(--gap-great);
+    height: var(--gap-smallest);
+    background-color: var(--color-white);
+    top: ${rem('7px')};
+  }
+  &::after {
+    width: var(--gap-normal);
+    height: var(--gap-normal);
+    transform: rotateZ(225deg);
+    border-left: var(--gap-smallest) solid white;
+    border-bottom: var(--gap-smallest) solid white;
+    left: ${rem('78px')};
+    top: var(--gap-smallest);
+  }
+`;
