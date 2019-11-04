@@ -31,7 +31,7 @@ const BannerFull = ({
           <BannerDescription>{description}</BannerDescription>
           <MainButton
             Primary
-            content="CTA"
+            content="Assinerodri"
             title={title}
             onClick={onClick}
           />
