@@ -1,5 +1,5 @@
 import React from 'react';
-import { TitlePage, PaymentWrapper } from './styles';
+import { PaymentWrapper } from './styles';
 
 import Title from '../../objects/Title';
 import Main from '../../objects/Main';
@@ -13,12 +13,13 @@ import MainFooter from '../../containers/MainFooter';
 import PaymentForm from '../../containers/PaymentForm';
 import BenefitsBullets from '../../containers/BenefitsBullets';
 import BannersEditions from '../../containers/BannersEditions';
+import MainTitle from '../../containers/MainTitle';
 
 const ProductPage = () => (
   <>
     <MainHeader />
     <Main>
-      <TitlePage>Lorem Ipsum</TitlePage>
+      <MainTitle content="Lorem Ipsum" />
       <PaymentWrapper>
         <Figure>
           <img

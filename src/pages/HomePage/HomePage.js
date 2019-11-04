@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import { BulletsContainer } from './styles';
+import BulletsContainer from './styles';
 
 import BulletsData from './BulletsData';
 import BannerData from './BannerData';
