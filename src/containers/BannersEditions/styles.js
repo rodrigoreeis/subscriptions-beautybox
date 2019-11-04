@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
-import { flexColumn } from '../../styles/tools';
+import { flexColumn, Arrow } from '../../styles/tools';
 import MainButton from '../../components/MainButton/styles';
 
 export const SwapContainer = styled.div`
@@ -36,6 +36,11 @@ export const Content = styled.div`
   background-image: ${({ image }) => `url(${image})`};
   > a {
     color: var(--color-white);
+    position: relative;
+    ${Arrow};
+    &::after {
+      right: -57%;
+    }
   }
 `;
 
