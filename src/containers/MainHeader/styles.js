@@ -10,6 +10,9 @@ export const Header = styled.header`
   width: 100%;
   display: flex;
   background-color: var(--color-white);
+  position: fixed;
+  top: 0;
+  z-index: 2;
   & ${ContainerWrapper} {
     height: 100%;
     flex-direction: row;

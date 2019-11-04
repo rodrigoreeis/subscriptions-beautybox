@@ -10,7 +10,7 @@ import IconMenu from '../../components/IconMenu';
 import MainButton from '../../components/MainButton';
 import Menu from '../Menu';
 
-const MainHeader = () => {
+const MainHeader = ({ onClick }) => {
   const [activeMenu, setActiveMenu] = useState([]);
 
   const handleOpenMenu = () => setActiveMenu('-active');
@@ -32,6 +32,7 @@ const MainHeader = () => {
               title="Assine"
               type="button"
               content="Assine"
+              onClick={onClick}
             />
           </User>
         </Container>
