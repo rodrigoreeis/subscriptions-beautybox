@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 import { flexColumn } from '../../styles/tools';
 
+import Figure from '../../objects/Figure';
+import Image from '../../components/ImageBullet';
+
 export const BenefitsContainer = styled.div`
   width: 100%;
   display: flex;
@@ -14,14 +17,13 @@ export const BenefitsWrapper = styled.div`
   ${flexColumn}
   align-items: center;
   margin-bottom: var(--gap-great);
-`;
-
-export const Image = styled.div`
-  border-radius: 50%;
-  background-color: var(--color-turquoise);
-  width: ${rem('90px')};
-  height: ${rem('90px')};
-  margin-bottom: var(--gap-small);
+  & ${Figure} {
+    margin-bottom: var(--gap-small);
+    > ${Image} {
+      width: ${rem('90px')};
+      height: ${rem('90px')};
+    }
+  }
 `;
 
 export const Title = styled.h3`
