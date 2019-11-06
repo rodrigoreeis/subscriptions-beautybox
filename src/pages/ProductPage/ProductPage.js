@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, createRef } from 'react';
 import { PaymentWrapper } from './styles';
+
+import throttle from '../../helpers/throttleScroll';
 
 import Title from '../../objects/Title';
 import Main from '../../objects/Main';
@@ -17,9 +19,10 @@ import MainTitle from '../../containers/MainTitle';
 
 const ProductPage = () => {
   const [removeButton, setRemoveButton] = useState('');
+  const footerRef = createRef();
 
   const handleScroll = () => {
-    const footer = document.getElementsByTagName('footer')[0];
+    const footer = footerRef.current;
     const bounding = footer.getBoundingClientRect().top;
     const spaceBelow = bounding - window.innerHeight;
     if (spaceBelow < 0) {
@@ -30,7 +33,7 @@ const ProductPage = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', throttle(handleScroll, 500));
   });
 
   return (
@@ -55,7 +58,7 @@ const ProductPage = () => {
         <Title content="Assine também" />
         <BannersEditions content={EditionsData} />
       </Main>
-      <MainFooter />
+      <MainFooter ref={footerRef} />
     </>
   );
 };

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Footer,
@@ -14,8 +14,8 @@ import MainAccordion from '../../components/MainAccordion';
 import IconSocial from '../../components/IconSocial/IconSocial';
 
 // eslint-disable-next-line no-unused-vars
-const MainFooter = () => (
-  <Footer>
+const MainFooter = forwardRef((props, ref) => (
+  <Footer ref={ref}>
     <WrapperLogo>
       <Link to="/">
         <LogoBeauty />
@@ -45,6 +45,6 @@ const MainFooter = () => (
       <IconSocial />
     </Content>
   </Footer>
-);
+));
 
 export default MainFooter;
