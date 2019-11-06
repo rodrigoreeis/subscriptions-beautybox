@@ -10,6 +10,9 @@ import MainTitle from '../../../containers/MainTitle';
 import DescriptionText from '../../../containers/DescriptionText/DescriptionText';
 import BannersPrevious from '../../../containers/BannersPrevious';
 import MainFooter from '../../../containers/MainFooter';
+import UserTestimonial from '../../../containers/UserTestimonial';
+import TestimonialData from './TestimonialData';
+import HotPicksData from './HotPicksData';
 
 const FirstPicks = () => {
   return (
@@ -21,6 +24,10 @@ const FirstPicks = () => {
         <DescriptionText content="Ea in est id cillum aliquip eu pariatur enim consequat Cillum ea sunt incididunt do minim aliqua tempor reprehenderit" />
         <BannersPrevious content={PreviousData} />
         <Title content="Depoimentos" />
+        <UserTestimonial content={TestimonialData} />
+        <Title content="Lorem Ipsum" />
+        <MainTitle content="Hot Picks" />
+        <BannersPrevious content={HotPicksData} />
       </Main>
       <MainFooter />
     </>
