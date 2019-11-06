@@ -20,6 +20,19 @@ const Button = styled.button`
         background-color: var(--color-pink-hovered);
       }
     `}
+  ${({ Secondary }) =>
+    Secondary &&
+    css`
+      background-color: var(--color-black);
+      color: var(--color-white);
+      ${flexCentered};
+      border-radius: var(--gap-small);
+      transition: background-color 0.4s ease-in-out 0s;
+      display: flex;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: ${rem('1px')};
+    `}
 `;
 
 export default Button;
