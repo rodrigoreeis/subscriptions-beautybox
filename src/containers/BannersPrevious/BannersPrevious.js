@@ -3,7 +3,7 @@ import shortid from 'shortid';
 import { Container, Wrapper } from './styles';
 import BannerSimple from '../../components/BannerSimple/BannerSimple';
 
-const BannersPrevious = ({ content }) => (
+const BannersPrevious = ({ content, children }) => (
   <Container>
     {content &&
       content.map(data => (
@@ -11,6 +11,7 @@ const BannersPrevious = ({ content }) => (
           <BannerSimple {...data} />
         </Wrapper>
       ))}
+    {children}
   </Container>
 );
 

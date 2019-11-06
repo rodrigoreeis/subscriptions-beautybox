@@ -1,4 +1,5 @@
 import React from 'react';
+import { ButtonHotPicks } from './styles';
 
 import PreviousData from './PreviousData';
 
@@ -13,6 +14,8 @@ import MainFooter from '../../../containers/MainFooter';
 import UserTestimonial from '../../../containers/UserTestimonial';
 import TestimonialData from './TestimonialData';
 import HotPicksData from './HotPicksData';
+import MainButton from '../../../components/MainButton';
+import Section from '../../../objects/Section';
 
 const FirstPicks = () => {
   return (
@@ -26,8 +29,13 @@ const FirstPicks = () => {
         <Title content="Depoimentos" />
         <UserTestimonial content={TestimonialData} />
         <Title content="Lorem Ipsum" />
-        <MainTitle content="Hot Picks" />
+        <Section>
+          <MainTitle content="Hot Picks" />
+        </Section>
         <BannersPrevious content={HotPicksData} />
+        <ButtonHotPicks>
+          <MainButton Secondary content="Ver Mais" />
+        </ButtonHotPicks>
       </Main>
       <MainFooter />
     </>

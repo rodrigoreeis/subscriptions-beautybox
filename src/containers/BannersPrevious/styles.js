@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
 import { flexColumn } from '../../styles/tools';
+import { Button } from '../../components/MainAccordion/styles';
 
 export const Container = styled.section`
   display: flex;
@@ -15,6 +16,10 @@ export const Container = styled.section`
   margin-left: var(--gap-great);
   @media (max-width: 320px) {
     height: ${rem('425px')};
+  }
+  ${Button} {
+    padding: var(--gap-great);
+    width: 100%;
   }
 `;
 
