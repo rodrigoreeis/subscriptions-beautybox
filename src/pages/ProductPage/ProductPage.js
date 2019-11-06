@@ -21,19 +21,24 @@ const ProductPage = () => {
   const [removeButton, setRemoveButton] = useState('');
   const footerRef = createRef();
 
-  const handleScroll = () => {
+  const handleHideButton = () => {
     const footer = footerRef.current;
-    const bounding = footer.getBoundingClientRect().top;
-    const spaceBelow = bounding - window.innerHeight;
-    if (spaceBelow < 0) {
-      setRemoveButton('-removed');
-    } else {
-      setRemoveButton('');
+    if (footer) {
+      const bounding = footer.getBoundingClientRect().top;
+      const spaceBelow = bounding - window.innerHeight;
+      if (spaceBelow < 0) {
+        setRemoveButton('-removed');
+      } else {
+        setRemoveButton('');
+      }
     }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', throttle(handleScroll, 500));
+    window.addEventListener(
+      'scroll',
+      throttle(handleHideButton, 300),
+    );
   });
 
   return (
@@ -49,7 +54,7 @@ const ProductPage = () => {
             />
           </Figure>
           <PaymentForm
-            onClick={handleScroll}
+            onClick={handleHideButton}
             className={removeButton}
           />
         </PaymentWrapper>
