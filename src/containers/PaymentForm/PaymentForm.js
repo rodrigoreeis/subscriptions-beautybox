@@ -6,7 +6,7 @@ import Container from '../../layout/Container';
 
 import InputRadio from '../../components/InputRadio/InputRadio';
 
-const PaymentFormn = () => (
+const PaymentFormn = ({ onClick, className }) => (
   <Form>
     <Container>
       <Fieldset>
@@ -14,7 +14,13 @@ const PaymentFormn = () => (
         <InputRadio name="payment" htmlFor="8" content="Dia 8" />
         <InputRadio name="payment" htmlFor="13" content="Dia 13" />
         <InputRadio name="payment" htmlFor="25" content="Dia 25" />
-        <MainButton Primary type="submit" content="Assinar" />
+        <MainButton
+          Primary
+          type="submit"
+          content="Assinar"
+          onClick={onClick}
+          className={className}
+        />
       </Fieldset>
     </Container>
   </Form>

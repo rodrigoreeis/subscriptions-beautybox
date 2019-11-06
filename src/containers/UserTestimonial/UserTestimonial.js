@@ -1,4 +1,5 @@
 import React from 'react';
+import shortid from 'shortid';
 import { Container, Wrapper, Text, Name, UserName } from './styles';
 
 import Section from '../../objects/Section';
@@ -10,7 +11,7 @@ const UserTestimonial = ({ content }) => {
       <Container>
         {content &&
           content.map(({ src, alt, text, name, userName }) => (
-            <Wrapper>
+            <Wrapper key={shortid.generate()}>
               <ImageBullet src={src} alt={alt} />
               <Text>{text}</Text>
               <Name>{name}</Name>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 import { ButtonHotPicks } from './styles';
 
 import PreviousData from './PreviousData';
@@ -18,6 +18,10 @@ import MainButton from '../../../components/MainButton';
 import Section from '../../../objects/Section';
 
 const FirstPicks = () => {
+  const footerRef = createRef();
+
+  console.log(footerRef);
+
   return (
     <>
       <MainHeader />
@@ -37,7 +41,7 @@ const FirstPicks = () => {
           <MainButton Secondary content="Ver Mais" />
         </ButtonHotPicks>
       </Main>
-      <MainFooter />
+      <MainFooter ref={footerRef} />
     </>
   );
 };

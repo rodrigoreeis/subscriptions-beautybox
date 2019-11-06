@@ -13,6 +13,7 @@ import LogoBeauty from '../../components/LogoBeauty';
 import MainAccordion from '../../components/MainAccordion';
 import IconSocial from '../../components/IconSocial/IconSocial';
 
+// eslint-disable-next-line no-unused-vars
 const MainFooter = () => (
   <Footer>
     <WrapperLogo>

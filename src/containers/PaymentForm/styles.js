@@ -13,6 +13,10 @@ export const Form = styled.form`
     border-radius: 0;
     padding: var(--gap-medium);
     z-index: 1;
+    transition: all 100ms linear;
+    &.-removed {
+      transform: translateY(100%);
+    }
   }
 `;
 
