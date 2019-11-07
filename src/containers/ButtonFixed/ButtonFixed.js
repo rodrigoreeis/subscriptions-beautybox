@@ -4,13 +4,13 @@ import throttle from '../../helpers/throttleScroll';
 
 import MainButton from '../../components/MainButton';
 
-const ButtonFixed = ({ content, footerRef, children, ...props }) => {
+const ButtonFixed = ({ content, elementRef, ...props }) => {
   const [removeButton, setRemoveButton] = useState('');
 
   const handleHideButton = () => {
-    const footer = footerRef.current;
-    if (footer) {
-      const bounding = footer.getBoundingClientRect().top;
+    const element = elementRef.current;
+    if (element) {
+      const bounding = element.getBoundingClientRect().top;
       const spaceBelow = bounding - window.innerHeight;
       if (spaceBelow < 0) {
         setRemoveButton('-removed');
@@ -33,9 +33,7 @@ const ButtonFixed = ({ content, footerRef, children, ...props }) => {
         {...props}
         content={content}
         className={removeButton}
-      >
-        {children}
-      </MainButton>
+      />
     </Container>
   );
 };

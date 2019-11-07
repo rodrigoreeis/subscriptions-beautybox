@@ -43,7 +43,7 @@ const FirstPicks = () => {
           as={Link}
           to="/product"
           Primary
-          footerRef={footerRef}
+          elementRef={footerRef}
           content="Assine"
         />
       </Main>
