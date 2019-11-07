@@ -3,8 +3,8 @@ import shortid from 'shortid';
 import { Container, Wrapper } from './styles';
 import BannerSimple from '../../components/BannerSimple/BannerSimple';
 
-const BannersPrevious = ({ content, children }) => (
-  <Container>
+const BannersPrevious = ({ content, children, ...props }) => (
+  <Container {...props}>
     {content &&
       content.map(data => (
         <Wrapper key={shortid.generate()}>
