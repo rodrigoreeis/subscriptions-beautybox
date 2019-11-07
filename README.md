@@ -31,4 +31,3 @@ yarn test
 - [React](https://reactjs.org/)
 - [styled-components](https://www.styled-components.com/)
 - [Webpack](https://webpack.js.org/)
-- [Pug](https://pugjs.org/api/getting-started.html)

@@ -11,7 +11,16 @@ import Section from '../../objects/Section';
 
 import MainButton from '../../components/MainButton';
 
-const BannerFull = ({ link, title, src, alt, name, description }) => {
+const BannerFull = ({
+  link,
+  title,
+  src,
+  alt,
+  name,
+  description,
+  onClick,
+  content,
+}) => {
   return (
     <Section>
       <StyledLink to={link} title={title}>
@@ -21,7 +30,12 @@ const BannerFull = ({ link, title, src, alt, name, description }) => {
         <BannerContent>
           <BannerTitle>{name}</BannerTitle>
           <BannerDescription>{description}</BannerDescription>
-          <MainButton Primary content="CTA" title={title} />
+          <MainButton
+            Primary
+            content={content}
+            title={title}
+            onClick={onClick}
+          />
         </BannerContent>
       </StyledLink>
     </Section>

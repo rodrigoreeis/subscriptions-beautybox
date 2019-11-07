@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ContainerWrapper from '../../layout/Container/styles';
 
-export const BulletsContainer = styled.section`
+const BulletsContainer = styled.section`
   display: flex;
   margin: var(--gap-great) 0;
   & ${ContainerWrapper} {
@@ -9,4 +9,4 @@ export const BulletsContainer = styled.section`
   }
 `;
 
-export const p = styled.p``;
+export default BulletsContainer;
