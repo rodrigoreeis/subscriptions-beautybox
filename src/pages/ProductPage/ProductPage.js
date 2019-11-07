@@ -1,7 +1,5 @@
-import React, { useEffect, useState, createRef } from 'react';
+import React, { createRef } from 'react';
 import { PaymentWrapper } from './styles';
-
-import throttle from '../../helpers/throttleScroll';
 
 import Title from '../../objects/Title';
 import Main from '../../objects/Main';
@@ -18,28 +16,7 @@ import BannersEditions from '../../containers/BannersEditions';
 import MainTitle from '../../containers/MainTitle';
 
 const ProductPage = () => {
-  const [removeButton, setRemoveButton] = useState('');
   const footerRef = createRef();
-
-  const handleHideButton = () => {
-    const footer = footerRef.current;
-    if (footer) {
-      const bounding = footer.getBoundingClientRect().top;
-      const spaceBelow = bounding - window.innerHeight;
-      if (spaceBelow < 0) {
-        setRemoveButton('-removed');
-      } else {
-        setRemoveButton('');
-      }
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener(
-      'scroll',
-      throttle(handleHideButton, 300),
-    );
-  });
 
   return (
     <>
@@ -53,10 +30,7 @@ const ProductPage = () => {
               alt="Lorem Ipsum"
             />
           </Figure>
-          <PaymentForm
-            onClick={handleHideButton}
-            className={removeButton}
-          />
+          <PaymentForm footerRef={footerRef} />
         </PaymentWrapper>
         <Title content="O que voce vai receber" />
         <BenefitsBullets content={BenefitsData} />
