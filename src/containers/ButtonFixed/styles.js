@@ -6,7 +6,8 @@ const Container = styled.div`
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 1;
+  display: flex;
   ${Button} {
     width: 100%;
     border-radius: 0;

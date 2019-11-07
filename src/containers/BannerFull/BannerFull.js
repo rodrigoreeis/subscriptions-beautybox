@@ -19,6 +19,7 @@ const BannerFull = ({
   name,
   description,
   onClick,
+  content,
 }) => {
   return (
     <Section>
@@ -31,7 +32,7 @@ const BannerFull = ({
           <BannerDescription>{description}</BannerDescription>
           <MainButton
             Primary
-            content="Assinerodri"
+            content={content}
             title={title}
             onClick={onClick}
           />

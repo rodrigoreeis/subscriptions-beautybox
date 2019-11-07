@@ -4,7 +4,7 @@ import throttle from '../../helpers/throttleScroll';
 
 import MainButton from '../../components/MainButton';
 
-const ButtonFixed = ({ content, footerRef, ...props }) => {
+const ButtonFixed = ({ content, footerRef, children, ...props }) => {
   const [removeButton, setRemoveButton] = useState('');
 
   const handleHideButton = () => {
@@ -26,13 +26,16 @@ const ButtonFixed = ({ content, footerRef, ...props }) => {
       throttle(handleHideButton, 300),
     );
   });
+
   return (
     <Container>
       <MainButton
         {...props}
         content={content}
         className={removeButton}
-      />
+      >
+        {children}
+      </MainButton>
     </Container>
   );
 };

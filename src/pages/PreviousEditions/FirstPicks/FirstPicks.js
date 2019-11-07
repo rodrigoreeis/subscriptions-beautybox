@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-
+import { Link } from 'react-router-dom';
 import PreviousData from './PreviousData';
 import TestimonialData from './TestimonialData';
 import HotPicksData from './HotPicksData';
@@ -39,7 +39,13 @@ const FirstPicks = () => {
           <LinkPink href="/"> Ver Mais </LinkPink>
         </SectionTitle>
         <BannersPrevious FlexCenter content={HotPicksData} />
-        <ButtonFixed Primary footerRef={footerRef} content="Assine" />
+        <ButtonFixed
+          as={Link}
+          to="/product"
+          Primary
+          footerRef={footerRef}
+          content="Assine"
+        />
       </Main>
       <Footer ref={footerRef} />
     </>
