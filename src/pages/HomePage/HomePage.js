@@ -11,7 +11,7 @@ import BrandsData from './BrandsData';
 import Main from '../../objects/Main';
 import Title from '../../objects/Title';
 
-import MainHeader from '../../containers/MainHeader';
+import Header from '../../containers/Header';
 import MainBullets from '../../containers/MainBullets';
 import BannerFull from '../../containers/BannerFull';
 import SwipeCards from '../../containers/SwipeCards';
@@ -19,7 +19,7 @@ import BenefitsBullets from '../../containers/BenefitsBullets';
 import BannersEditions from '../../containers/BannersEditions/BannersEditions';
 import BrandsBeauty from '../../containers/BrandsBeauty';
 import CommonQuestions from '../../containers/CommonQuestions';
-import MainFooter from '../../containers/MainFooter';
+import Footer from '../../containers/Footer';
 
 const Home = () => {
   const editionsRef = createRef();
@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <>
-      <MainHeader onClick={handleScroll} />
+      <Header onClick={handleScroll} />
       <Main>
         <BulletsContainer>
           <MainBullets content={BulletsData} />
@@ -51,7 +51,7 @@ const Home = () => {
         <Title content="Dúvidas Frequentes" />
         <CommonQuestions />
       </Main>
-      <MainFooter />
+      <Footer />
     </>
   );
 };

@@ -9,23 +9,22 @@ import Title from '../../../objects/Title';
 import LinkPink from '../../../components/LinkPink';
 import SectionTitle from '../../../components/SectionTitle';
 
-import MainHeader from '../../../containers/MainHeader';
+import Header from '../../../containers/Header';
 import MainTitle from '../../../containers/MainTitle';
 import DescriptionText from '../../../containers/DescriptionText/DescriptionText';
 import BannersPrevious from '../../../containers/BannersPrevious';
-import MainFooter from '../../../containers/MainFooter';
+import Footer from '../../../containers/Footer';
 import UserTestimonial from '../../../containers/UserTestimonial';
 import TestimonialData from './TestimonialData';
 import HotPicksData from './HotPicksData';
 
 const FirstPicks = () => {
   const footerRef = createRef();
-
   console.log(footerRef);
 
   return (
     <>
-      <MainHeader />
+      <Header />
       <Main>
         <Title content="Edições Anteriores" />
         <SectionTitle>
@@ -43,7 +42,7 @@ const FirstPicks = () => {
         <BannersPrevious FlexCenter content={HotPicksData} />
         <ButtonHotPicks />
       </Main>
-      <MainFooter ref={footerRef} />
+      <Footer ref={footerRef} />
     </>
   );
 };
