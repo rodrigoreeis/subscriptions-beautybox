@@ -1,7 +1,8 @@
 import React, { createRef } from 'react';
-import { ButtonHotPicks } from './styles';
 
 import PreviousData from './PreviousData';
+import TestimonialData from './TestimonialData';
+import HotPicksData from './HotPicksData';
 
 import Main from '../../../objects/Main';
 import Title from '../../../objects/Title';
@@ -15,12 +16,10 @@ import DescriptionText from '../../../containers/DescriptionText/DescriptionText
 import BannersPrevious from '../../../containers/BannersPrevious';
 import Footer from '../../../containers/Footer';
 import UserTestimonial from '../../../containers/UserTestimonial';
-import TestimonialData from './TestimonialData';
-import HotPicksData from './HotPicksData';
+import ButtonFixed from '../../../containers/ButtonFixed';
 
 const FirstPicks = () => {
   const footerRef = createRef();
-  console.log(footerRef);
 
   return (
     <>
@@ -40,7 +39,7 @@ const FirstPicks = () => {
           <LinkPink href="/"> Ver Mais </LinkPink>
         </SectionTitle>
         <BannersPrevious FlexCenter content={HotPicksData} />
-        <ButtonHotPicks />
+        <ButtonFixed Primary footerRef={footerRef} content="Assine" />
       </Main>
       <Footer ref={footerRef} />
     </>

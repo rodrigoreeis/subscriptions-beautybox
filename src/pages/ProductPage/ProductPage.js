@@ -8,6 +8,8 @@ import Figure from '../../objects/Figure';
 import BenefitsData from '../HomePage/BenefitsData';
 import EditionsData from '../HomePage/EditionsData';
 
+import SectionTitle from '../../components/SectionTitle';
+
 import Header from '../../containers/Header';
 import Footer from '../../containers/Footer';
 import PaymentForm from '../../containers/PaymentForm';
@@ -22,7 +24,9 @@ const ProductPage = () => {
     <>
       <Header />
       <Main>
-        <MainTitle content="Lorem Ipsum" />
+        <SectionTitle>
+          <MainTitle content="Lorem Ipsum" />
+        </SectionTitle>
         <PaymentWrapper>
           <Figure>
             <img
