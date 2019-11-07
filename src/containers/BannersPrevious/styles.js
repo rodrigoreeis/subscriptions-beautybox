@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { rem } from 'polished';
 import { flexColumn } from '../../styles/tools';
 import { Button } from '../../components/MainAccordion/styles';
@@ -9,10 +9,18 @@ export const Container = styled.section`
   margin-top: var(--gap-great);
   overflow-x: scroll;
   overflow-y: hidden;
-  height: ${rem('480px')};
   width: 100%;
-  flex-flow: column wrap;
-  align-content: flex-start;
+  ${({ ColumnWrap }) =>
+    ColumnWrap &&
+    css`
+      flex-flow: column wrap;
+      height: ${rem('480px')};
+    `}
+  ${({ FlexCenter }) =>
+    FlexCenter &&
+    css`
+      display: -webkit-box;
+    `}
   margin-left: var(--gap-great);
   @media (max-width: 320px) {
     height: ${rem('425px')};
