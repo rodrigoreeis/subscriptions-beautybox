@@ -1,8 +1,8 @@
 import React from 'react';
-import MainHeader from '../../../containers/MainHeader';
+import Header from '../../../containers/Header';
 
 const HotPicks = () => {
-  return <MainHeader />;
+  return <Header />;
 };
 
 export default HotPicks;

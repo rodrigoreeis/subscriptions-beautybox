@@ -17,12 +17,6 @@ yarn run dev (development environment)
 yarn run build (production environment)
 ```
 
-### Test
-
-```
-yarn test
-```
-
 ### Developed with
 
 - [Babel](https://babeljs.io/)
