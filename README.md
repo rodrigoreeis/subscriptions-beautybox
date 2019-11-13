@@ -17,12 +17,6 @@ yarn run dev (development environment)
 yarn run build (production environment)
 ```
 
-### Test
-
-```
-yarn test
-```
-
 ### Developed with
 
 - [Babel](https://babeljs.io/)
@@ -31,4 +25,3 @@ yarn test
 - [React](https://reactjs.org/)
 - [styled-components](https://www.styled-components.com/)
 - [Webpack](https://webpack.js.org/)
-- [Pug](https://pugjs.org/api/getting-started.html)

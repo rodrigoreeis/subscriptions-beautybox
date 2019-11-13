@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import shortid from 'shortid';
 import {
@@ -11,8 +11,8 @@ import {
 import Section from '../../objects/Section';
 import MainButton from '../../components/MainButton';
 
-const BannersEditions = ({ content }) => (
-  <Section>
+const BannersEditions = forwardRef(({ content }, ref) => (
+  <Section ref={ref}>
     <SwapContainer>
       {content &&
         content.map(({ color, title, src, text, link }) => (
@@ -27,6 +27,6 @@ const BannersEditions = ({ content }) => (
         ))}
     </SwapContainer>
   </Section>
-);
+));
 
 export default BannersEditions;

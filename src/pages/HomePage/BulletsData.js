@@ -8,13 +8,13 @@ export default [
   {
     name: 'pera',
     src: 'http://via.placeholder.com/80x80',
-    link: '/',
+    link: '/first-picks',
     alt: 'foto teste',
   },
   {
-    name: 'pera',
+    name: 'box-page',
     src: 'http://via.placeholder.com/80x80',
-    link: '/',
+    link: '/box-page',
     alt: 'foto teste',
   },
   {

@@ -6,4 +6,5 @@ export default {
   name: 'Lorem ipsum',
   description:
     'Minim adipisicing id adipisicing Lorem elit laborum esse officia voluptate dolore quis pariatur reprehenderit.',
+  content: 'Assine',
 };

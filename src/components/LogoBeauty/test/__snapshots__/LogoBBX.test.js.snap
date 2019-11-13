@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<LogoBBX /> render correctly 1`] = `
-<div
-  className="sc-bdVaJa fJXIEj"
->
-  <test-file-stub />
-</div>
-`;
