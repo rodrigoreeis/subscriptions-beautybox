@@ -7,7 +7,7 @@ const BannerSimple = ({ src, alt, title }) => (
     <Figure>
       <img src={src} alt={alt} />
     </Figure>
-    <Title>{title}</Title>
+    {title && <Title>{title}</Title>}
   </>
 );
 

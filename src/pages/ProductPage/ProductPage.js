@@ -19,7 +19,6 @@ import MainTitle from '../../containers/MainTitle';
 
 const ProductPage = () => {
   const footerRef = createRef();
-
   return (
     <>
       <Header />

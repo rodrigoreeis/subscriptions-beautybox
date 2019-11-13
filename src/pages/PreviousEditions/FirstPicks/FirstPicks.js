@@ -20,7 +20,6 @@ import ButtonFixed from '../../../containers/ButtonFixed';
 
 const FirstPicks = () => {
   const footerRef = createRef();
-
   return (
     <>
       <Header />

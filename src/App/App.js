@@ -7,6 +7,8 @@ import HomePage from '../pages/HomePage';
 import ProductPage from '../pages/ProductPage';
 import FirstPicks from '../pages/PreviousEditions/FirstPicks';
 import HotPicks from '../pages/PreviousEditions/HotPicks';
+import BoxMounth from '../pages/BoxMounth';
+import UserLogin from '../pages/UserLogin';
 
 const App = () => (
   <BrowserRouter>
@@ -19,6 +21,8 @@ const App = () => (
         path="/edicoes-anteriores/hot-picks"
         component={HotPicks}
       />
+      <Route path="/box-page" component={BoxMounth} />
+      <Route path="/login" component={UserLogin} />
     </Switch>
   </BrowserRouter>
 );

@@ -20,7 +20,7 @@ const PaymentFormn = ({ onClick, className, footerRef }) => (
           content="Assinar"
           onClick={onClick}
           className={className}
-          footerRef={footerRef}
+          elementRef={footerRef}
         />
       </Fieldset>
     </Container>

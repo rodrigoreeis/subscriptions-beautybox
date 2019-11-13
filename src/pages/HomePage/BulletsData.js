@@ -12,9 +12,9 @@ export default [
     alt: 'foto teste',
   },
   {
-    name: 'pera',
+    name: 'box-page',
     src: 'http://via.placeholder.com/80x80',
-    link: 'edicoes-anteriores/first-picks',
+    link: '/box-page',
     alt: 'foto teste',
   },
   {
