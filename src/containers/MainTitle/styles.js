@@ -4,6 +4,8 @@ export const TitlePage = styled.h2`
   font-size: var(--font-big);
   font-family: 'Bison', sans-serif;
   font-weight: 500;
+  color: ${({ Purple }) =>
+    Purple ? `var(--color-purple)` : `var(--color-black)`};
 `;
 
 export const SubTitle = styled.h4`

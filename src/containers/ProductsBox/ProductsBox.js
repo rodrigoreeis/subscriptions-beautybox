@@ -1,20 +1,19 @@
 import React from 'react';
 import shortid from 'shortid';
-import { Container, Wrapper, Content, Title, Text } from './styles';
-import BannerSimple from '../../components/BannerSimple';
+import Container from './styles';
+import YourBox from '../../components/YourBox';
 
 const ProductsBox = ({ content }) => {
   return (
     <Container>
       {content &&
         content.map(({ src, title, text }) => (
-          <Wrapper key={shortid.generate()}>
-            <BannerSimple src={src} alt={title} />
-            <Content>
-              <Title>{title}</Title>
-              <Text>{text}</Text>
-            </Content>
-          </Wrapper>
+          <YourBox
+            key={shortid.generate()}
+            src={src}
+            title={title}
+            text={text}
+          />
         ))}
     </Container>
   );
