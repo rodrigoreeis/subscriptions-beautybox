@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>tbb-pedidos-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,8 C6.89333333,8 6,7.10666667 6,6 L4.66666667,6 C4.66666667,7.84 6.16,9.33333333 8,9.33333333 C9.84,9.33333333 11.3333333,7.84 11.3333333,6 L10,6 C10,7.10666667 9.10666667,8 8,8 Z M3.33333333,13.3333333 L12.6666667,13.3333333 L12.6666667,5.33333333 L3.33333333,5.33333333 L3.33333333,13.3333333 Z M8,2 C9.10666667,2 10,2.89333333 10,4 L6,4 C6,2.89333333 6.89333333,2 8,2 Z M12.6666667,4 L11.3333333,4 C11.3333333,2.16 9.84,0.666666667 8,0.666666667 C6.16,0.666666667 4.66666667,2.16 4.66666667,4 L3.33333333,4 C2.6,4 2,4.6 2,5.33333333 L2,13.3333333 C2,14.0666667 2.6,14.6666667 3.33333333,14.6666667 L12.6666667,14.6666667 C13.4,14.6666667 14,14.0666667 14,13.3333333 L14,5.33333333 C14,4.6 13.4,4 12.6666667,4 Z" id="path-1"></path>
+    </defs>
+    <g id="tbb-pedidos-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets/icons/bag">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Fill-1"></g>
+            <g id="variables/color/base/inverted-2" mask="url(#mask-2)" fill="#3F303D" fill-rule="evenodd">
+                <g transform="translate(-0.666667, -0.666667)" id="↳-Color:">
+                    <rect x="0" y="0" width="17" height="17"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
