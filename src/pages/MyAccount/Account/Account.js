@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { createRef } from 'react';
+import { Card } from './styles';
 
 import Container from '../../../layout/Container';
 
@@ -19,10 +20,12 @@ import AccountMenu from '../../../containers/AccountMenu';
 import BannersEditions from '../../../containers/BannersEditions';
 
 const MyAccount = () => {
+  const footerRef = createRef();
+
   return (
     <>
       <Header />
-      <AccountMenu />
+      <AccountMenu elementRef={footerRef} />
       <Main>
         <Title content="Hello, Assinante!" />
         <SectionTitle>
@@ -40,7 +43,7 @@ const MyAccount = () => {
         <Title content="Edições Anteriores" />
         <BannersEditions content={EditionsData} />
       </Main>
-      <Footer />
+      <Footer ref={footerRef} />
     </>
   );
 };

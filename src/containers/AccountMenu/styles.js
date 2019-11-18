@@ -10,6 +10,11 @@ export const MenuFixed = styled.div`
   background-color: var(--color-turquoise);
   width: 100%;
   ${flexCentered};
+  z-index: 1;
+  transition: all 100ms linear;
+  &.-removed {
+    transform: translateY(100%);
+  }
 `;
 
 export const List = styled.ul`

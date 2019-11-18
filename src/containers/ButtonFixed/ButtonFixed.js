@@ -1,23 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Container from './styles';
+
 import throttle from '../../helpers/throttleScroll';
+import hideFixed from '../../helpers/hideElementFixed';
 
 import MainButton from '../../components/MainButton';
 
 const ButtonFixed = ({ content, elementRef, ...props }) => {
-  const [removeButton, setRemoveButton] = useState('');
+  const [remove, setRemove] = useState('');
 
   const handleHideButton = () => {
     const element = elementRef.current;
-    if (element) {
-      const bounding = element.getBoundingClientRect().top;
-      const spaceBelow = bounding - window.innerHeight;
-      if (spaceBelow < 0) {
-        setRemoveButton('-removed');
-      } else {
-        setRemoveButton('');
-      }
-    }
+    hideFixed(element, setRemove);
   };
 
   useEffect(() => {
@@ -29,11 +23,7 @@ const ButtonFixed = ({ content, elementRef, ...props }) => {
 
   return (
     <Container>
-      <MainButton
-        {...props}
-        content={content}
-        className={removeButton}
-      />
+      <MainButton {...props} content={content} className={remove} />
     </Container>
   );
 };
